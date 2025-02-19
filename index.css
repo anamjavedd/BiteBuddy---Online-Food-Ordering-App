@@ -30,7 +30,7 @@ body{
 .res-card
 {
     background-color: bisque;
-    width: 15%;
+    width: 40%;
     margin: 25px;
     padding: 10px;
 
@@ -109,3 +109,17 @@ body{
     height: 30px;
     border-color: bisque;
 }
+
+.restaurant-container a {
+    all: unset; /* Removes all inherited styles */
+  }
+
+.user-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background-color: azure;
+}
+  
