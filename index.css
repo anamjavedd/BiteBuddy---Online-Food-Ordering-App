@@ -1,4 +1,6 @@
-body{
+@import "tailwindcss";
+
+/* body{
     box-sizing: border-box;
     margin: 0;
 }
@@ -112,7 +114,7 @@ body{
 
 .restaurant-container a {
     all: unset; /* Removes all inherited styles */
-  }
+  /* }
 
 .user-card{
     display: flex;
@@ -121,5 +123,5 @@ body{
     justify-content: center;
     height:100vh;
     background-color: azure;
-}
-  
+} */
+   
