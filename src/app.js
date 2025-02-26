@@ -11,7 +11,7 @@ import RestaurantMenu from "./components/RestaurantMenu";
 
   const AppLayout = () => {
       return(
-          <div className="app">
+          <div className="bg-background">
               <Header />
               <Outlet />
           </div>

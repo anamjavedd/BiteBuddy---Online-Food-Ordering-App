@@ -13,13 +13,15 @@ const RestaurantCard = (props) =>{
     const deliveryTime = resData?.info?.sla?.deliveryTime; // Access delivery time safely
 
     return(
-        <div className="res-card"> 
-        <img src={CDN_URL+cloudinaryImageId}></img>
-        <h2>{name}</h2>
-        <h3>{cuisines.join(", ")}</h3>
-        <h3>{avgRating} stars</h3>
-        <h3>{costForTwo}</h3>
-        <h3>{deliveryTime} minutes</h3>
+        <div className="bg-card-color m-[38px] p-4 w-[300px]"> 
+        <img src={CDN_URL+cloudinaryImageId} className=""></img>
+        <div className="my-3">
+            <h2 className="font-bold text-2xl">{name}</h2>
+            <h3 className="text-white">{cuisines.join(", ")}</h3>
+            <h3 className="text-white">{avgRating} stars</h3>
+            <h3 className="text-white">{costForTwo}</h3>
+            <h3 className="text-white">{deliveryTime} minutes</h3>
+        </div>
         </div>
     )
 }

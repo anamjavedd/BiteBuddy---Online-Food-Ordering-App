@@ -1,8 +1,7 @@
 const Contact = () =>{
     return(
-        <div>
-            <h1>Hola!</h1>
-            <h1>Welcome to the Contact Page!</h1>
+        <div className="h-screen flex justify-center items-center">
+            <h1 className="text-7xl">Welcome to the Contact Page!</h1>
         </div>
     )
 }

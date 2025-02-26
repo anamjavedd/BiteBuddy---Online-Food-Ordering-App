@@ -14,10 +14,10 @@ class User extends React.Component{
     render(){
         const {name,location,avatar_url}=this.state.userInfo;
             return(
-            <div className="user-card">
-                <img src={avatar_url}></img>
-                <h1>Name: {name}</h1>
-                <h1>Location: {location}</h1>
+            <div className="flex justify-center items-center h-screen flex-col">
+                <img src={avatar_url} className="mb-5"></img>
+                <h1 className="text-2xl text-font-color">Name: {name}</h1>
+                <h1 className="text-2xl text-font-color">Location: {location}</h1>
             </div>)
     }
     async componentDidMount(){

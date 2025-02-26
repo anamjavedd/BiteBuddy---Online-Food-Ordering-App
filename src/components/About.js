@@ -2,7 +2,7 @@ import User from "./User";
 
 const About = () =>{
     return(
-        <div>
+        <div className="">
             <User name="Anam" />
         </div>
     )
